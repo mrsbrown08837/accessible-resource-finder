@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accessible Resource Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>Accessible Resource Finder</h1>
+    <p>Search helpful online tools and learning resources</p>
+  </header>
+
+  <main id="main">
+    <label for="search">Search resources:</label>
+    <input type="text" id="search" aria-label="Search resources" />
+
+    <ul id="results" aria-live="polite"></ul>
+  </main>
+
+  <footer>
+    <p>Built by Lorraine Brown | <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
